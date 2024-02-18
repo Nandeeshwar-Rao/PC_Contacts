@@ -115,9 +115,6 @@ def display():
 
 window=Tk()
 window.title('MY CONTACT BOOK',)
-#Iconphoto method is used to give a logo for the window created.
-logo=PhotoImage(file="E:\python_projects\contact_book_project\logo_img.png")
-window.iconphoto(True,logo)
 label=Label(text='MY CONTACT BOOK',font=('garamond',25),bg='#E0EBE3',fg='#120312',relief=SOLID,borderwidth=1)
 label.place(x=40,y=0)
 #Window size is configured to only one dimension and can't be maximized or resized for giving an actual feeling of an application.
